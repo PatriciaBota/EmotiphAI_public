@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+authors:
+  - family-names: Bota
+    given-names: Patrícia
+  - family-names: Flety
+    given-names: Emmanuel
+  - family-names: Silva
+    given-names: Hugo Plácido da
+  - family-names: Fred
+    given-names: Ana
+title: "EmotiphAI: a biocybernetic engine for real-time biosignals acquisition in a collective setting"
+journal: "Neural Computing and Applications"
+volume: "35"
+number: "8"
+pages: "5721-5736"
+year: 2023
+publisher: "Springer"
+doi: "10.1007/s00521-023-07762-7"
+url: "https://doi.org/10.1007/s00521-023-07762-7"
+
