@@ -1,14 +1,35 @@
 # EmotiphAI_public
-A platform for group physiological data collection and retrospective emotion annotation.
 
-The EmotiphAI platform consists of a low-cost standalone local infrastructure, a wearable device, and an end-user interface for real-time data visualisation and emotion annotation.
+**EmotiphAI** is a platform developed to address the challenge of collecting physiological data from groups, particularly when there are limited devices available.
 
-Scientific paper [available](https://link.springer.com/article/10.1007/s00521-022-07191-8).
+## Overview
+
+The platform is designed not only for real-time biosignal acquisition but also for retrospective emotion annotation. By analyzing Electrodermal Activity (EDA) data, EmotiphAI identifies significant moments in a session (e.g., during a 2-hour movie), allowing for targeted annotation. This approach minimizes distraction during the emotion elicitation process, making it more efficient and user-friendly.
+
+## Methods
+
+EmotiphAI is built on a low-cost, standalone local infrastructure, which includes:
+
+- **Hardware**:
+  - A local hub, such as a Raspberry Pi or Odroid, that serves as the central data receiver.
+  - A wearable device, 3D-printed and based on the ESP32 microcontroller, for biosignal acquisition.
+
+- **Communication**:
+  - Data is transmitted via Bluetooth to the local hub, which is connected through a WiFi router (e.g., TP-Link Wireless N 450Mbps (TL-WR940N)).
+  - Multiprocessing is employed to manage simultaneous data reception from multiple devices while optimizing CPU core usage.
+
+- **Software**:
+  - An end-user interface for real-time data visualization and emotion annotation.
+
+For detailed methodology and technical specifications, refer to the scientific paper [available here](https://link.springer.com/article/10.1007/s00521-022-07191-8).
 
 ## Results
-The platform works both for bluetooth and WiFi. Using TP-Link Wireless N 450Mbps (TL-WR940N) WiFi and an odroid it enables data collection up to 30 devices at 50Hz (1 channel), or 10 devices at 100 Hz (2 channels).
 
-The EmotiphAI platform was used to collect a real-world [dataset](https://github.com/PatriciaBota/g-rex_public) with more than 350h of data collected.
+The EmotiphAI platform can:
+
+- Collect data from up to **30 devices at 50Hz** (1 channel), or **10 devices at 100Hz** (2 channels).
+- The platform was successfully used to collect a real-world dataset, comprising over **350 hours** of data. This dataset is publicly available [here](https://github.com/PatriciaBota/g-rex_public).
+- Scientific paper available [here](https://link.springer.com/article/10.1007/s00521-022-07191-8).
 
 <div align="center">
   <img src="static/images/emotiphai_infrastructure.png" alt="emotiphai_infrastructure" width="500"/>
@@ -35,6 +56,11 @@ $ git clone https://github.com/PatriciaBota/EmotiphAI.git
 1. make install
 2. make run
 
+To get started with EmotiphAI:
+
+1. Set up the local infrastructure with the required hardware and software.
+2. Deploy the wearable devices to participants.
+3. Use the platform's interface to monitor and annotate data in real-time or retrospectively.
 
 ## Acknowledge
 This work was funded by FCT - Fundação para a Ciência e a Tecnologia under grants 2020.06675.BD and FCT (PCIF/SSO/0163/2019 SafeFire), FCT/MCTES national funds, co-funded EU (UIDB/50008/2020 NICE-HOME), Xinhua Net FMCI (S-0003-LX-18), Ministry of Economy and Competitiveness of the Spanish Government co-founded by ERDF (TIN2017-85409-P PhysComp), and IT - Instituto de Telecomunicacações, by the European Regional Development Fund (FEDER) through the Operational Competitiveness and Internationalization Programme (COMPETE 2020), and by National Funds (OE) through the FCT under the LISBOA-01-0247-FEDER-069918 “CardioLeather” and LISBOA-1-0247-FEDER-113480 “EpilFootSense”.
