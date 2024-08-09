@@ -23,6 +23,10 @@ EmotiphAI is built on a low-cost, standalone local infrastructure, which include
 
 For detailed methodology and technical specifications, refer to the scientific paper [available here](https://link.springer.com/article/10.1007/s00521-022-07191-8).
 
+<div align="center">
+  <img src="static/images/emotiphai_infrastructure.png" alt="emotiphai_infrastructure" width="500"/>
+</div>
+
 ## Results
 
 The EmotiphAI platform can:
@@ -30,10 +34,6 @@ The EmotiphAI platform can:
 - Collect data from up to **30 devices at 50Hz** (1 channel), or **10 devices at 100Hz** (2 channels).
 - The platform was successfully used to collect a real-world dataset, comprising over **350 hours** of data. This dataset is publicly available [here](https://github.com/PatriciaBota/g-rex_public).
 - Scientific paper available [here](https://link.springer.com/article/10.1007/s00521-022-07191-8).
-
-<div align="center">
-  <img src="static/images/emotiphai_infrastructure.png" alt="emotiphai_infrastructure" width="500"/>
-</div>
 
 ## DEMOs
 <div style="display: flex; justify-content: center; align-items: center;">
