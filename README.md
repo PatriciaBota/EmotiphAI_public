@@ -1,6 +1,6 @@
 # EmotiphAI_public
 
-**EmotiphAI** is a platform developed to address the challenge of collecting physiological data from groups, particularly when there are limited devices available.
+**EmotiphAI** is a platform developed to address the challenge of collecting physiological data from groups, particularly when a centralised controller is used.
 
 ## Overview
 
