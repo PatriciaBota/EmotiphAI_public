@@ -6,7 +6,7 @@ The EmotiphAI platform consists of a low-cost standalone local infrastructure, a
 Scientific paper [available](https://link.springer.com/article/10.1007/s00521-022-07191-8).
 
 ## Results
-The platform works both for bluetooth and WiFi. Using TP-Link Wireless N 450Mbps (TL-WR940N) WiFi and an odroid it enables data collection up to 30 devices at 50Hz (1 channel), or 20 devices at 100 Hz (2 channels).
+The platform works both for bluetooth and WiFi. Using TP-Link Wireless N 450Mbps (TL-WR940N) WiFi and an odroid it enables data collection up to 30 devices at 50Hz (1 channel), or 10 devices at 100 Hz (2 channels).
 
 The EmotiphAI platform was used to collect a real-world [dataset](https://github.com/PatriciaBota/g-rex_public) with more than 350h of data collected.
 
