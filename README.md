@@ -3,6 +3,8 @@ A platform for group physiological data collection and retrospective emotion ann
 
 The EmotiphAI platform consists of a low-cost standalone local infrastructure, a wearable device, and an end-user interface for real-time data visualisation and emotion annotation.
 
+Scientific paper [available](https://link.springer.com/article/10.1007/s00521-022-07191-8).
+
 ## Results
 The platform works both for bluetooth and WiFi. Using TP-Link Wireless N 450Mbps (TL-WR940N) WiFi and an odroid it enables data collection up to 30 devices at 50Hz (1 channel), or 20 devices at 100 Hz (2 channels).
 
