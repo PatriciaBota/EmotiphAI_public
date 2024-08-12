@@ -2,7 +2,7 @@
 
 **EmotiphAI** is a platform developed to address the challenge of collecting physiological data from groups, particularly when a centralised controller is used.
 
-## Overview
+## Motivation
 
 The platform is designed not only for real-time biosignal acquisition but also for retrospective emotion annotation. By analyzing Electrodermal Activity (EDA) data, EmotiphAI identifies significant moments in a session (e.g., during a 2-hour movie), allowing for targeted annotation. This approach minimizes distraction during the emotion elicitation process, making it more efficient and user-friendly.
 
